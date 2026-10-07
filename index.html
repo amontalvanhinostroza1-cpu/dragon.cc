@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAGON | Instituto Superior</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#inicio" class="logo">
+        <svg viewBox="0 0 48 48" width="40" height="40" aria-hidden="true">
+            <path d="M24 6 2 17l22 11 18-9v13h4V17z" fill="#fff"/>
+            <path d="M12 26v8c0 4 6 8 12 8s12-4 12-8v-8l-12 6z" fill="#fff"/>
+        </svg>
+        <span><strong>DRAGON</strong><small>"La verdad nos libera, la revolución nos transforma."</small></span>
+    </a>
+
+    <nav class="menu" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#programas">Programas</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#registro" class="btn-registro">Regístrate</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero" id="inicio">
+        <div class="hero-texto">
+            <h1>Forma tu futuro <span>con educación de calidad</span></h1>
+            <p>¡Mi tesoro! Si lo queréis, es vuestro. ¡Buscadlo! ¡Lo dejé todo en ese lugar!</p>
+
+            <div class="hero-botones">
+                <a href="#programas" class="btn btn-azul">Conoce nuestros programas</a>
+                <a href="#contacto" class="btn btn-borde">Contáctanos</a>
+            </div>
+        </div>
+
+        <div class="hero-imagen" role="img" aria-label="Estudiante sonriendo con un cuaderno"></div>
+    </section>
+
+
+    <div class="contenido">
+
+        <div class="principal">
+
+            <section id="nosotros">
+                <h2 class="titulo">¿Por qué estudiar con nosotros?</h2>
+
+                <div class="beneficios" id="beneficios">
+
+                    <article>
+                        <div class="icono azul">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M12 3 1 9l11 6 9-4.9V17h2V9zM5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8z"/>
+                            </svg>
+                        </div>
+
+                        <h3>Educación de calidad</h3>
+                        <p>Docentes especializados y programas actualizados.</p>
+                    </article>
+
+
+                    <article>
+                        <div class="icono verde">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M10 3h4a2 2 0 0 1 2 2v2h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h4V5a2 2 0 0 1 2-2m0 2v2h4V5z"/>
+                            </svg>
+                        </div>
+
+                        <h3>Oportunidades reales</h3>
+                        <p>Convenios con empresas y bolsa de trabajo.</p>
+                    </article>
+
+
+                    <article>
+                        <div class="icono amarillo">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M3 4h18a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1h-7v2h3v2H7v-2h3v-2H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1"/>
+                            </svg>
+                        </div>
+
+                        <h3>Modalidad flexible</h3>
+                        <p>Estudia a tu ritmo con nuestros horarios flexibles.</p>
+                    </article>
+
+
+                    <article>
+                        <div class="icono morado">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M16 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3M8 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3m0 2c-2.3 0-7 1.2-7 3.5V19h14v-2.5C15 14.2 10.3 13 8 13m8 0c-.3 0-.6 0-1 .1 1.2.8 2 1.9 2 3.4V19h6v-2.5c0-2.3-4.7-3.5-7-3.5"/>
+                            </svg>
+                        </div>
+
+                        <h3>Acompañamiento</h3>
+                        <p>Te apoyamos en cada paso de tu formación.</p>
+                    </article>
+
+                </div>
+            </section>
+
+
+            <section id="programas">
+
+                <h2 class="titulo">Nuestros Programas</h2>
+
+                <div class="programas">
+                    <p>Cargando programas...</p>
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <aside class="registro" id="registro">
+
+            <h2>Regístrate ahora</h2>
+
+            <p class="registro-sub">
+                Déjanos tus datos y recibe información sobre nuestros programas.
+            </p>
+
+            <form id="formulario">
+
+                <label for="nombre">Nombre completo</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ej. Juan Pérez"
+                    required
+                >
+
+
+                <label for="correo">Correo electrónico</label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="Ej. correo@ejemplo.com"
+                    required
+                >
+
+
+                <label for="telefono">Teléfono</label>
+
+                <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="Ej. 987654321"
+                    pattern="[0-9+ ]{7,15}"
+                    required
+                >
+
+
+                <label for="carrera">Programa de interés</label>
+
+                <select id="carrera" name="carrera" required>
+
+                    <option value="">
+                        Selecciona un programa
+                    </option>
+
+                </select>
+
+
+                <div class="check">
+
+                    <input
+                        type="checkbox"
+                        id="acepto"
+                        name="acepto"
+                        required
+                    >
+
+                    <label for="acepto">
+                        Acepto los
+                        <a href="#">términos y condiciones</a>
+                    </label>
+
+                </div>
+
+
+                <button type="submit" class="btn-enviar">
+                    Enviar registro
+                </button>
+
+                <p id="mensaje" role="status"></p>
+
+            </form>
+
+        </aside>
+
+    </div>
+
+</main>
+
+
+<footer id="contacto">
+
+    <div class="footer-grid">
+
+        <div class="footer-marca">
+
+            <a href="#inicio" class="logo">
+
+                <svg viewBox="0 0 48 48" width="40" height="40" aria-hidden="true">
+                    <path d="M24 6 2 17l22 11 18-9v13h4V17z" fill="#fff"/>
+                    <path d="M12 26v8c0 4 6 8 12 8s12-4 12-8v-8l-12 6z" fill="#fff"/>
+                </svg>
+
+                <span>
+                    <strong>DRAGON</strong>
+                    <small>Instituto Superior</small>
+                </span>
+
+            </a>
+
+            <p>
+                Formamos profesionales técnicos listos para el mundo laboral.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>Enlaces rápidos</h4>
+
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#programas">Programas</a>
+
+        </div>
+
+
+        <div>
+
+            <h4>Contáctanos</h4>
+
+            <p>📍isla oculta en el West Blue.</p>
+            <p>+1 202-358-0001</p>
+            <p>info@DRAGON.edu</p>
+
+        </div>
+
+
+        <div>
+
+            <h4>Síguenos</h4>
+
+            <p>
+                Mantente conectado con nuestras novedades.
+            </p>
+
+            <div class="redes">
+
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">in</a>
+                <a href="#" aria-label="YouTube">▶</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <p class="copy">
+        © 2026 DRAGON Instituto Superior. Todos los derechos reservados.
+    </p>
+
+</footer>
+
+
+<!-- Ventana de éxito -->
+<div class="modal" id="modalExito" aria-hidden="true">
+    <div class="modal-caja" role="dialog" aria-labelledby="modalTitulo">
+
+        <div class="escena" aria-hidden="true">
+
+            <span class="moneda m1"></span>
+            <span class="moneda m2"></span>
+            <span class="moneda m3"></span>
+            <span class="moneda m4"></span>
+            <span class="moneda m5"></span>
+            <span class="moneda m6"></span>
+
+            <div class="barco">
+                <svg viewBox="0 0 200 140" width="170" height="119">
+                    <!-- mástil -->
+                    <rect x="97" y="26" width="5" height="70" fill="#5a3515"/>
+                    <!-- vela principal -->
+                    <path d="M104 34 Q148 56 104 90 Z" fill="#ffffff" stroke="#d9d4c4" stroke-width="1.5"/>
+                    <!-- vela delantera -->
+                    <path d="M95 40 Q56 60 95 90 Z" fill="#f4f1e8" stroke="#d9d4c4" stroke-width="1.5"/>
+                    <!-- bandera pirata -->
+                    <g class="bandera">
+                        <rect x="102" y="8" width="30" height="20" rx="2" fill="#111"/>
+                        <circle cx="117" cy="16" r="4.5" fill="#fff"/>
+                        <rect x="114" y="19" width="6" height="3" fill="#fff"/>
+                        <path d="M108 24 L126 12 M126 24 L108 12" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+                    </g>
+                    <!-- proa -->
+                    <line x1="150" y1="92" x2="178" y2="80" stroke="#5a3515" stroke-width="4" stroke-linecap="round"/>
+                    <!-- casco -->
+                    <path d="M36 92 H162 L146 120 Q100 132 52 120 Z" fill="#8a5427"/>
+                    <path d="M42 102 H156" stroke="#5a3515" stroke-width="2.5"/>
+                    <circle cx="70" cy="108" r="3.5" fill="#f5c542"/>
+                    <circle cx="100" cy="110" r="3.5" fill="#f5c542"/>
+                    <circle cx="130" cy="108" r="3.5" fill="#f5c542"/>
+                </svg>
+            </div>
+
+            <svg class="ola ola-atras" viewBox="0 0 400 60" preserveAspectRatio="none">
+                <path d="M0 22 Q25 2 50 22 T100 22 T150 22 T200 22 T250 22 T300 22 T350 22 T400 22 V60 H0 Z" fill="#2f7fd1"/>
+            </svg>
+            <svg class="ola ola-frente" viewBox="0 0 400 60" preserveAspectRatio="none">
+                <path d="M0 22 Q25 42 50 22 T100 22 T150 22 T200 22 T250 22 T300 22 T350 22 T400 22 V60 H0 Z" fill="#1a62f0"/>
+            </svg>
+        </div>
+
+        <h3 id="modalTitulo">¡Bienvenido a la tripulación!</h3>
+        <p>Tu registro zarpó con éxito. Pronto nos pondremos en contacto contigo.</p>
+        <button type="button" class="btn-cerrar" id="cerrarModal">¡A navegar!</button>
+    </div>
+</div>
+
+</body>
+</html>
